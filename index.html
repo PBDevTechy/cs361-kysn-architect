@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KYSN Architect</title>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- css file -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+  <!-- navbar -->
+  <header>
+
+    <nav>
+
+      <div class="logo">
+        KYSN Architect
+      </div>
+
+      <div class="nav-links">
+
+        <a href="#home">
+          Home
+        </a>
+
+        <a href="#portfolio">
+          Portfolio
+        </a>
+
+        <a href="#appointment">
+          Appointment
+        </a>
+
+        <a href="#about">
+          About
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- hero section -->
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <h1>
+        Modern Architecture in Cambodia
+      </h1>
+
+      <p>
+        We provide architectural design services
+        for business innovators and homeowners.
+      </p>
+
+      <p>
+        Browse our projects and schedule a consultation
+        with our architecture team.
+      </p>
+
+      <a href="#portfolio" class="btn">
+        View Portfolio
+      </a>
+
+    </div>
+
+
+    <div class="hero-image">
+
+      <img src="images/arch.png" alt="Architecture Image">
+
+    </div>
+
+  </section>
+
+
+
+  <!-- portfolio section -->
+  <section id="portfolio">
+
+    <h2 class="section-title">
+      Portfolio Projects
+    </h2>
+
+
+    <!-- filter buttons -->
+    <div class="filter-buttons">
+
+      <button id="allBtn">
+        All
+      </button>
+
+      <button id="resBtn">
+        Residential
+      </button>
+
+      <button id="comBtn">
+        Commercial
+      </button>
+
+      <button id="intBtn">
+        Interior
+      </button>
+
+    </div>
+
+
+
+    <!-- cards -->
+    <div class="portfolio-grid">
+
+      <!-- residential -->
+      <div class="card residential">
+
+        <img src="images/arch.png" alt="Residential Project">
+
+        <div class="card-content">
+
+          <h3>
+            Modern Residential Villa
+          </h3>
+
+          <p>
+            Residential Architecture
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- commercial -->
+      <div class="card commercial">
+
+        <img src="images/arch.png" alt="Commercial Project">
+
+        <div class="card-content">
+
+          <h3>
+            Phnom Penh Office Tower
+          </h3>
+
+          <p>
+            Commercial Architecture
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- interior -->
+      <div class="card interior">
+
+        <img src="images/arch.png" alt="Interior Project">
+
+        <div class="card-content">
+
+          <h3>
+            Apartment Interior
+          </h3>
+
+          <p>
+            Interior Design
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- details section -->
+  <section id="details">
+
+    <div class="details-container">
+
+      <div class="details-image">
+
+        <img src="images/arch.png" alt="Project Detail">
+
+      </div>
+
+
+      <div class="details-text">
+
+        <h2>
+          Modern Residential Villa
+        </h2>
+
+        <p>
+          This residential villa features open living spaces,
+          natural lighting, and modern architecture designed
+          for comfortable family living.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- appointment section -->
+  <section id="appointment">
+
+    <div class="appointment-container">
+
+
+      <!-- form side -->
+      <div class="appointment-form">
+
+        <h2>
+          Consultation
+        </h2>
+
+        <p class="response-text">
+          Response time is usually within 24 hours.
+        </p>
+
+
+        <form id="consultationForm">
+
+          <input
+            type="text"
+            placeholder="Your Name"
+            required
+          >
+
+
+          <input
+            type="email"
+            placeholder="Email Address"
+            required
+          >
+
+
+          <input
+            type="tel"
+            placeholder="Phone Number"
+          >
+
+
+          <textarea
+            rows="5"
+            placeholder="Message"
+          ></textarea>
+
+
+          <button type="submit">
+            Submit
+          </button>
+
+
+          <div
+            id="successMessage"
+            class="success-message"
+          ></div>
+
+        </form>
+
+      </div>
+
+
+
+      <!-- contact side -->
+      <div class="appointment-info">
+
+        <h2>
+          Contact Us
+        </h2>
+
+        <p>
+          Dont hesitate to question us about designs.
+          our team is here to help.
+        </p>
+
+        <img src="images/arch.png" alt="Contact Image">
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- about section -->
+  <section id="about">
+
+    <div class="about-container">
+
+      <div class="about-image">
+
+        <img src="images/arch.png" alt="About Image">
+
+      </div>
+
+
+      <div class="about-text">
+
+        <h2>
+          About KYSN Architect
+        </h2>
+
+        <p>
+          We are based in Phnom Penh and focus on
+          modern architectural solutions.
+        </p>
+
+        <p>
+          Our team works closely with clients to develop your dream home.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- footer -->
+  <footer>
+
+    <p>
+      © KYSN Architect 2026
+    </p>
+
+    <p>
+      Phnom Penh, Cambodia
+    </p>
+
+    <p>
+      +855-14-345-678
+    </p>
+
+  </footer>
+
+
+
+  <!-- top button -->
+  <div
+    class="top-btn"
+    onclick="scrollToTop()"
+  >
+    ↑
+  </div>
+
+
+
+
+  <script>
+
+    // form submit
+
+    const form =
+    document.getElementById("consultationForm");
+
+
+    const successMessage =
+    document.getElementById("successMessage");
+
+
+
+    form.addEventListener("submit", function(event){
+
+      event.preventDefault();
+
+
+      const confirmSubmit =
+      confirm("Submit consultation request?");
+
+
+
+      if(confirmSubmit){
+
+        successMessage.innerText =
+        "Consultation request submitted successfully.";
+
+
+        form.reset();
+
+      }
+
+    });
+
+
+
+
+    // portfolio filter
+
+    const allBtn =
+    document.getElementById("allBtn");
+
+
+    const resBtn =
+    document.getElementById("resBtn");
+
+
+    const comBtn =
+    document.getElementById("comBtn");
+
+
+    const intBtn =
+    document.getElementById("intBtn");
+
+
+
+    const cards =
+    document.querySelectorAll(".card");
+
+
+
+
+    // show all cards
+
+    allBtn.addEventListener("click", function(){
+
+      cards.forEach(function(card){
+
+        card.style.display = "block";
+
+      });
+
+    });
+
+
+
+
+    // residential filter
+
+    resBtn.addEventListener("click", function(){
+
+      cards.forEach(function(card){
+
+        if(card.classList.contains("residential")){
+
+          card.style.display = "block";
+
+        }
+
+        else{
+
+          card.style.display = "none";
+
+        }
+
+      });
+
+    });
+
+
+
+
+    // commercial filter
+
+    comBtn.addEventListener("click", function(){
+
+      cards.forEach(function(card){
+
+        if(card.classList.contains("commercial")){
+
+          card.style.display = "block";
+
+        }
+
+        else{
+
+          card.style.display = "none";
+
+        }
+
+      });
+
+    });
+
+
+
+
+    // interior filter
+
+    intBtn.addEventListener("click", function(){
+
+      cards.forEach(function(card){
+
+        if(card.classList.contains("interior")){
+
+          card.style.display = "block";
+
+        }
+
+        else{
+
+          card.style.display = "none";
+
+        }
+
+      });
+
+    });
+
+
+
+
+    // scroll back top
+
+    function scrollToTop(){
+
+      window.scrollTo({
+
+        top:0,
+        behavior:"smooth"
+
+      });
+
+    }
+
+  </script>
+
+</body>
+
+</html>
